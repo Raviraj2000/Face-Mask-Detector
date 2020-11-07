@@ -62,9 +62,9 @@ history = model.fit(train_generator,
                     validation_data = test_generator
                     )
 
-model.save_weights('Face_Mask_model_black.h5')
+#model.save_weights('Face_Mask_model_black.h5')
 
-model.load_weights('Face_Mask_model.h5')
+#model.load_weights('Face_Mask_model.h5')
 
 
 import cv2
